@@ -41,8 +41,7 @@ for i in range(40):
         add(pair,temp_pairs[pair],pairs)
 
 for pair in pairs.keys():
-    if pairs[pair] > 0:
-        add(pair[0],pairs[pair],letters)
+    add(pair[0],pairs[pair],letters)
 
 add(final_char,1,letters)
 
